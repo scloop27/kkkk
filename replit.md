@@ -27,11 +27,12 @@ A bilingual (English-Telugu) lodge management platform for admin-only room alloc
 - ✓ Application server running on port 3000 (2025-01-28)
 
 ## Current Status
-- Server: Running successfully with database connected
-- Frontend: React application with bilingual (English-Telugu) interface
+- Server: Running successfully on port 3000 with database connected
+- Frontend: React application with bilingual (English-Telugu) interface  
 - Authentication: Session-based admin authentication implemented
 - Database: PostgreSQL with all tables created
 - Features: Login, Setup, Dashboard, Guests, Bookings pages created
+- Preview: Server accessible at localhost:3000 with working API endpoints
 
 ## Test Credentials
 - Default admin: username 'admin', password 'admin123'
