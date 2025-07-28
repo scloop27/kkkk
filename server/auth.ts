@@ -64,8 +64,11 @@ declare global {
     interface Request {
       admin?: import('../shared/schema').Admin;
     }
-    interface Session {
-      adminId?: string;
-    }
+  }
+}
+
+declare module 'express-session' {
+  interface SessionData {
+    adminId?: string;
   }
 }
