@@ -8,5 +8,9 @@ localPort = 3000
 externalPort = 3000
 
 [[ports]]
+localPort = 8080
+externalPort = 8080
+
+[[ports]]
 localPort = 24678
 externalPort = 80
